@@ -1,0 +1,21 @@
+{
+    "name": "alirakhshanipour/task-manager",
+    "description": "this is a simple task manager with Ajax,Php,Mysqql",
+    "type": "project",
+    "require": {
+        "hekmatinasser/verta": "^1.12"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alirakhshanipour\\TaskManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ali Rakhshanipour",
+            "email": "ali.rakhshanipour.sru@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
