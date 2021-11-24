@@ -5,7 +5,8 @@ function getCurrentUrl()
     return 1;
 }
 
-function power($b, $p)
+function diePage($msg)
 {
-    return $b ** $p;
+    echo $msg;
+    die();
 }
